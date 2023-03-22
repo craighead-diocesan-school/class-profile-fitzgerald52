@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Jackson High</title>
+  </head>
+  <body>
+    <header>
+      <h1>Our School</h1>
+    </header>
+    <nav>
+      <a href="page2">Ruòxī</a>
+      <a href="page2">Priya</a>
+      <a href="page2">Aniyah</a>
+      <a href="page2">Lucy</a><a href="page2">Kaiara</a>
+    </nav>
+    <main>
+      <h2>Get to Know Us</h2>
+      <p>Our class of high-performing digital technology students likes to get stuck into any project that takes their fancy. The girls are in their final year at secondary school and are all working on personal projects that interest them.</p>
+      <img src="school-outside.jpg" alt="landscape image of jackson high showing the large campus buildings" />
+      <p>our school aims to prepare students for a future in an unknown job market, where people skills are as important as tech skills. We give our girls access to the resources they need to explore their world and develop into the people they want to be. Personal drive is celebrated here, and we like to give our students the opportunity to pursue any area that interests them.</p>
+    </main>
+    <footer>
+      <p>&copy; Emma Fitzgerald 2023</p>
+    </footer>
+  </body>
+  <style>
+    body {
+      display: grid;
+      grid:
+        " h  h  h    " auto
+        " n  m   m     " auto
+        " .  f  f   " auto
+        / auto;
+    }
+    header {
+      grid-area: h;
+    }
+    main {
+      grid-area: m;
+    }
+    footer {
+      grid-area: f;
+    }
+    nav {
+      grid-area: n;
+    }
+    img {
+      width: 200px;
+    }
+    a {
+      text-decoration: none;
+      padding-left: 1em;
+      padding-right: 1em;
+      display: block;
+      border: 2px solid seagreen;
+      border-radius: 0.5em;
+      margin-bottom: 2px;
+      margin-right: 12px;
+    }
+  </style>
+</html>
