@@ -19,5 +19,99 @@
       <a href="gettoknowLucy.html">Lucy</a>
       <a href="gettoknowKaiara.html">Kaiara</a>
     </nav>
+    <main>
+        <h2>Ruòxī is a boisterous student who likes to get stuck in with practical work.</h2>
+        <div>
+          <img src="ruòxī.jpg" alt="Picture of Ruòxī one of the students" />
+          <img class="arm"src="robotic-arm.jpg" alt="orange robotic -arm" />
+        </div>
+        <p>She’s worked on:</p>
+        <ul>
+          <li>Electric cars</li>
+          <li>Robotic arms</li>
+          <li>Sports training systems</li>
+        </ul>
   </body>
+  <style>
+      body {
+      display: grid;
+      grid:
+        " h  h  h    " auto
+        " n  m   m     " auto
+        " .  f  f   " auto
+        / auto;
+      background-color: #eff0ff;
+    }
+    header {
+      grid-area: h;
+    }
+    main {
+      grid-area: m;
+      color: #170074;
+    }
+    nav {
+      grid-area: n;
+      margin-top: 12px;
+    }
+    footer {
+      grid-area: f;
+      color: #170074;
+      font-family: "Oxygen Mono", monospace;
+    }
+    h1 {
+      font-family: "Titan One", cursive;
+      margin-bottom: 25px;
+      padding-left: 12px;
+      padding-top: 2px;
+      padding-bottom: 7px;
+      padding-right: 12px;
+      border-radius: 0.6em;
+      text-align: center;
+      background-color: #ff621f;
+      text-shadow: 3px 3px #170074;
+      color: #ffffff;
+    }
+    a {
+      text-decoration: none;
+      display: block;
+      border: 2px solid #170074;
+      background-color: #ff621f;
+      color: aliceblue;
+      font-family: "Balsamiq Sans", cursive;
+      font-size: larger;
+      border-radius: 0.5em;
+      padding-left: 1em;
+      padding-right: 1em;
+      padding-top: 2px;
+      padding-bottom: 2px;
+      margin-bottom: 5px;
+      margin-right: 20px;
+      margin-left: 10px;
+    }
+    h2 {
+      font-family: "Balsamiq Sans", cursive;
+      margin-top: 1px;
+    }
+    p {
+      font-family: "Oxygen Mono", monospace;
+      font-size: large;
+    }
+    li{
+        font-family: "Oxygen Mono", monospace;
+      font-size: large;   
+    }
+    div {
+      display: flex;
+      justify-content: center;
+    }
+    img {
+      border: 4px solid #ff621f;
+      border-radius: 0.6em;
+      margin-right: 12px;
+      width: 150px
+    }
+   .arm{
+    width: 250px
+   }
+  </style>
 </html>
